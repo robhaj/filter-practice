@@ -6,3 +6,7 @@
 2. Pass the value to a helper function to find values in arr that are in the range
 3. Append values back to DOM
 */
+
+$('button').on('click', function(){
+  console.log(this.dataset.val);
+});
